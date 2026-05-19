@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    string name;
+    cout << "Hello I am C++, Tell me your name \n ";
+    cin >> name;
+    cout << "Nice to meet you " <<name;
+    
+}
