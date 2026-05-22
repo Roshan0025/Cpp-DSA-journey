@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main(){
+    bool a = true;
+    bool b = false;
+    
+    cout << "is coding fun? "<<a<<endl;
+    cout << "is fishing good? "<<b<<endl;
+    
+}
