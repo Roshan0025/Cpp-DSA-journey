@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main(){
+    float a=5.51;
+    float b=5.52;
+    if(a>b)
+    {
+    cout << "A is greater than B";
+    }
+    else if (a==b)
+    {
+        cout << "A is equal to B";
+    }
+    else
+    {
+        cout << "A is smaller than B";
+    }
+   
+}
