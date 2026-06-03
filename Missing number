@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int findMissingNumber(int arr[], int n) {
+    // Sum of natural numbers from 1 to n
+    int expectedSum = n * (n + 1) / 2;
+    int actualSum = 0;
+    
+    // Summing up all elements present in the array
+    for (int i = 0; i < n - 1; i++) {
+        actualSum += arr[i];
+    }
+    
+    // The difference is the missing number
+    return expectedSum - actualSum;
+}
+
+int main() {
+    int arr[] = {1, 2, 4, 5, 6}; // '3' is missing
+    int n = 6; // Total elements that should be there
+    
+    cout << "The missing number is: " << findMissingNumber(arr, n) << endl;
+    return 0;
+}
